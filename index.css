@@ -142,6 +142,55 @@ button:hover {
         box-shadow: 1px 2px 25px #ff0000;   
     }
 }
+@media (max-width: 567px) {
+
+    .quiz-container {
+        width: 75vw !important;
+        max-width: 75vw;
+        height: 100%;
+        padding: 1.5rem;
+    }
+
+    li {
+        width: 100% !important;
+        height: 100% !important;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    button {
+        width: 100% !important;
+        height: 100% !important;
+        font-size: 24px;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #starting,
+    #score-section {
+        font-size: 1.6rem;
+    }
+
+    #quiz-ui {
+        font-size: 1.3rem;
+    }
+    li {
+    background-color: #141b2d;
+    color: #e0f7fa;
+    margin:9px -10px;
+    border: 2px solid #2f80ed;
+    font-size: 20px;
+    display: block;
+    padding: 8px;
+    width: 100vh;
+    box-shadow: 0 0 6px #2f80ed66;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+}
+
 /* 
 body {
     display: flex;
