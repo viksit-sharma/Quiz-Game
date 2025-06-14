@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #0b0f1a; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Special Elite';
 }
 
 .quiz-container {
@@ -56,7 +56,7 @@ button {
     border: 2px solid #56ccf2;
     font-size: 30px;
     padding: 1vh 10vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Special Elite';
     box-shadow: 0 0 6px #56ccf280;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -142,7 +142,7 @@ button:hover {
         box-shadow: 1px 2px 25px #ff0000;   
     }
 }
-
+/* 
 body {
     display: flex;
     justify-content: center;
@@ -286,4 +286,4 @@ button:hover {
     100% {
         box-shadow: 1px 2px 25px #ff0000;   
     }
-}
+} */
