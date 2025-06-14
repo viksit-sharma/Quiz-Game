@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz Game</h1>
+      <div id="quiz-section">
+        <p id="question">Loading Question...</p>
+        <ul id="option-list"></ul>
+      </div>
+      <button id="Next-btn">Next</button>
+      <div id="score-section" class="hidden">
+        <p>Quiz Ended!!!</p>
+        <p id="score-card"></p>
+        <button onclick="location.reload()">Restart</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
