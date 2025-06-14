@@ -3,24 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz-Game</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div class="rotating-border-wrapper">
     <div class="quiz-container">
+      <div id="starting">
+  <h2>Welcome to the Quiz Game!</h2>
+  <p>Are you ready to test your knowledge and have some fun?</p>
+  <p>This quiz will challenge your understanding of basic web technologies like HTML, CSS, and JavaScript.</p>
+  <button id="start-btn">Start Quiz</button>
+</div>
+
+      <div id="quiz-ui" class="hidden">
       <h1>Quiz Game</h1>
       <div id="quiz-section">
         <p id="question">Loading Question...</p>
         <ul id="option-list"></ul>
       </div>
-      <button id="Next-btn">Next</button>
+      <button id="Next-btn">Next</button></div>
       <div id="score-section" class="hidden">
         <p>Quiz Ended!!!</p>
         <p id="score-card"></p>
-        <button onclick="location.reload()">Restart</button>
-
+        <button onclick="location.reload()">Reset</button>
       </div>
-    </div>
+    </div></div>
+    
     <script src="index.js"></script>
   </body>
 </html>
